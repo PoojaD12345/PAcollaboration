@@ -5,6 +5,7 @@ const Home = () => {
   return (
 <>
 <div>Home</div>
+<h1>Hello Masai</h1>
 <h1>count:{count}</h1>;
 
 <button onClick={()=>{setCount=count+1}}>inc</button>

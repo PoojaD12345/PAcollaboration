@@ -1,15 +1,18 @@
 import React,{useState} from 'react'
 
 const Home = () => {
-  const [count,setCount] = useState(0)
+  const [count,setCount] = useState("")
   return (
 <>
 <div>Home</div>
 <h1>Hello Masai</h1>
 <h1>count:{count}</h1>;
-<button onClick={()=>{setCount=count-1}}>inc</button>
-<button onClick={()=>{setCount=count+1}}>dec</button>
-<h2>Hii Masai</h2>
+
+<button onClick={()=>{setCount=count+1}}>inc</button>
+<button onClick={()=>{setCount=count-1}}>dec</button>
+😁😂
+
+
 </>
   )
 }

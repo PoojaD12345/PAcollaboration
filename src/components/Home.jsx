@@ -9,6 +9,7 @@ const Home = () => {
 <h1>count:{count}</h1>;
 <button onClick={()=>{setCount=count-1}}>inc</button>
 <button onClick={()=>{setCount=count+1}}>dec</button>
+<h2>Hii Masai</h2>
 </>
   )
 }
